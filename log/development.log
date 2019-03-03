@@ -25671,3 +25671,93 @@ Processing by PagesController#bscgmm as HTML
 Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-03 17:49:59 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#hello as HTML
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_message.html.erb (6.4ms)
+Completed 200 OK in 1640ms (Views: 1624.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscccbd" for 127.0.0.1 at 2019-03-03 17:50:18 -0500
+Processing by PagesController#bscccbd as HTML
+  Rendering pages/bscccbd.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.5ms)
+  Rendered pages/_bscccbdlist.html.erb (0.4ms)
+  Rendered pages/_bottomcoursedetails.html.erb (5.1ms)
+  Rendered pages/_footer.html.erb (0.8ms)
+  Rendered pages/bscccbd.html.erb within layouts/application (41.1ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (12.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (33.1ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Professional Diploma in Android and Web Systems(1yr)"]]
+  [1m[35m (37.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Android App Development with Java/Kotlin(4 months)"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Mobile First Responsive Web Design(4 months)"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Web Development with PHP, Laravel and MySQL(4 months)"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Web Development with Node, Express and MongoDB(4 months)"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Web Development with Ruby on Rails(4 months)"]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Bsc in Web and Mobile Systems"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Bsc in Mobile Computing"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Bsc in Computer Software Engineering"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "Bsc in Computer Systems and Network Administration"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "courses" ("name") VALUES (?)[0m  [["name", "HND Software Engineering and Computing"]]
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/bscweb" for 127.0.0.1 at 2019-03-03 18:03:58 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#bscweb as HTML
+  Rendering pages/bscweb.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.3ms)
+  Rendered pages/_bscweblist.html.erb (0.5ms)
+  Rendered pages/_bottomcoursedetails.html.erb (6.0ms)
+  Rendered pages/_footer.html.erb (0.6ms)
+  Rendered pages/bscweb.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+Completed 200 OK in 823ms (Views: 805.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-03-03 18:04:02 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  Rendered users/new.html.erb within layouts/application (165.7ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+Completed 200 OK in 356ms (Views: 179.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-03 18:04:45 -0500
+Processing by PagesController#hello as HTML
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
