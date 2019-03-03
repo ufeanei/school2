@@ -1,0 +1,82 @@
+<% @page_title = 'Apply for admission'%>
+<div class="contain"> <!--added to undo positioning due to bootstrap row style-->
+  <div class="row well new-user-wrapper col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-12 ">  
+    
+    <div class="col-md-12 registerform col-xs-12" novalidate>
+      <p class="grey-text"> Please fill in the form below. After applying present yourself on campus with the orignal of your highest obtained certificate </p>
+      <br>
+      <p class="grey-text"> It is highly recommended that you have a lab top. Developers are not trained in computer labs</p>
+
+    
+     <br>
+      <h3 class="text-center title">Application for Admission</h3>
+      <%= form_for @user do |f| %>
+        <% if @user.errors.any? %>
+          <div class="alert alert-danger">Please correct the errors in red</div>
+        <% end %>
+        <div class="form-group">
+          <%= f.label :family_name, 'Family Name' %>
+          <%= f.text_field :family_name, class: "form-control" %>
+          <span class='error-span'><%= @user.errors[:family_name][0] if @user.errors[:family_name] %></span>
+        </div>
+        <div class="form-group">
+          <%= f.label :other_names, 'Other Names' %>
+          <%= f.text_field :other_names, class: "form-control" %>
+          <span class='error-span'><%= @user.errors[:other_names][0] if @user.errors[:other_names] %></span>
+        </div>
+         
+        <div class="form-group">
+          <%= f.label "course", 'Select the course you are applying for'  %>
+          <%= f.collection_select :course_ids, @courses, :id, :name, {prompt: "choose course"}, {class:"form-control addr-field"}%> 
+          <span class='error-span'><%= "#{@user.errors[:course_ids][0]} #{@user.errors[:course_ids][1]} " if @user.errors[:course_ids] %></span>
+        </div>
+        <div class="form-group">
+          <%= f.label :qualification, 'Your highest qualification' %>
+          <%= f.text_field :qualification, class: "form-control" %>
+          <span class='error-span'><%= "#{@user.errors[:qualification][0]} #{@user.errors[:qualification][1]} " if @user.errors[:qualification] %></span>
+        </div>
+        <div class="form-group">
+          <%= f.label :nationality, 'Your nationality' %>
+          <%= f.text_field :nationality, class: "form-control" %>
+          <span class='error-span'><%= "#{@user.errors[:nationality][0]} #{@user.errors[:nationality][1]} " if @user.errors[:nationality] %></span>
+        </div>
+
+        <div class="form-group">
+          <%= f.label :phone, 'Phone Number' %>
+          <%= f.text_field :phone, class: "form-control" %>
+          <span class='error-span'><%= @user.errors[:phone][0] if @user.errors[:phone] %></span>
+       </div>
+       <br>
+       <br>
+       <p class="grey-text">We need the following to create your account in our system.</p>
+         <input type="text" style="display:none"> <!-- hidden inputs added to cancel autocomplete for email and password-->
+         <input type="password" style="display:none">
+        <div class="form-group">
+          <%= f.label :email, 'Email' %>
+          <%= f.text_field :email, class: "form-control" %>
+          <span class='error-span'><%= "#{@user.errors[:email][0]} #{@user.errors[:email][1]} " if @user.errors[:email] %></span>
+        </div>
+        
+        
+        <div class="form-group">
+          <%=f.label :password, 'Password' %>
+          <%= f.password_field :password, class: "form-control" %>
+          <span class='error-span'><%= "#{@user.errors[:password][0]} #{@user.errors[:password][1]}" if @user.errors[:password] %></span>
+        </div> 
+        <div class="form-group">
+          <%=f.label :password_confirmation, 'confirm password' %>
+          <%= f.password_field :password_confirmation, class: "form-control" %>
+          <span class='error-span'><%= "#{@user.errors[:password_confirmation][0]}" if @user.errors[:password_confirmation] %></span>
+        </div> 
+        
+          
+        <br/>
+         
+        <%= f.submit "Send Application", class: "btn btn-success btn-block register-button" %> 
+        <br>
+        
+      <% end %>
+    </div>
+  </div>
+</div>
+

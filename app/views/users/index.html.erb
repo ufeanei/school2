@@ -1,0 +1,22 @@
+<div class="container">
+ <table>
+ 	<tr>
+ 		<td>Name</td>
+ 		<td>course</td>
+ 		<td> email</td>
+ 		<td>phone</td>
+ 	</tr>
+
+ 	<% @users.each do |user| %>
+ 	<tr>
+ 		<td><%= user.family_name  + " " +  user.other_names %></td>
+ 		<td><%= user.courses.each { |x| x.name } %> </td>
+ 		<td> <%= user.email %> </td>
+ 		<td><%= user.phone %> </td>
+ 	</tr>
+ 	<% end %>
+
+ </table>
+	
+
+</div>
