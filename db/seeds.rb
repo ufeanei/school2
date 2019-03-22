@@ -16,9 +16,13 @@ courses= Course.create([
   {name: 'Web Development with Ruby on Rails(4 months)'}, 
   {name: 'Bsc in Web and Mobile Systems'},
   {name: 'Bsc in Mobile Computing'},
+  {name: 'Bsc in Computer Engineering'},
+  {name: 'Bsc in Cloud Computing and Big Data'},
+  {name: 'Bsc in Computer Graphics and Multimedia'},
   {name: 'Bsc in Computer Software Engineering'},
   {name: 'Bsc in Computer Systems and Network Administration'},
-  {name: 'HND Software Engineering and Computing'},
+  {name: 'HND Software Engineering and Computing'}
+
    
   
   
