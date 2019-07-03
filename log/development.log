@@ -26113,3 +26113,501 @@ Processing by PagesController#graphics as HTML
 Completed 200 OK in 118ms (Views: 41.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-07-03 05:27:39 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#hello as HTML
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (30.9ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+Completed 200 OK in 8019ms (Views: 7821.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-03 05:29:27 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#hello as HTML
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (30.7ms)
+  Rendered layouts/_message.html.erb (0.8ms)
+Completed 200 OK in 6341ms (Views: 6184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/font-awesome.min.css" for 127.0.0.1 at 2019-07-03 05:29:40 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/css/font-awesome.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/css/owl.carousel.min.css" for 127.0.0.1 at 2019-07-03 05:29:40 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/css/owl.carousel.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/css/owl.theme.default.min.css" for 127.0.0.1 at 2019-07-03 05:29:40 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/css/owl.theme.default.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:29:52 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.woff?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:29:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:29:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/diploma" for 127.0.0.1 at 2019-07-03 05:32:32 +0200
+Processing by PagesController#diploma as HTML
+  Rendering pages/diploma.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (1.1ms)
+  Rendered pages/_diplomalist.html.erb (36.1ms)
+  Rendered pages/_bottomcoursedetails.html.erb (31.1ms)
+  Rendered pages/_footer.html.erb (49.5ms)
+  Rendered pages/diploma.html.erb within layouts/application (281.0ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+Completed 200 OK in 1345ms (Views: 1087.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/diploma" for 127.0.0.1 at 2019-07-03 05:34:22 +0200
+Processing by PagesController#diploma as HTML
+  Rendering pages/diploma.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.5ms)
+  Rendered pages/_diplomalist.html.erb (21.1ms)
+  Rendered pages/_bottomcoursedetails.html.erb (1.4ms)
+  Rendered pages/_footer.html.erb (21.5ms)
+  Rendered pages/diploma.html.erb within layouts/application (240.6ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+Completed 200 OK in 1171ms (Views: 845.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/font-awesome.min.css" for 127.0.0.1 at 2019-07-03 05:34:27 +0200
+Started GET "/css/owl.carousel.min.css" for 127.0.0.1 at 2019-07-03 05:34:27 +0200
+  
+Started GET "/css/owl.theme.default.min.css" for 127.0.0.1 at 2019-07-03 05:34:27 +0200
+ActionController::RoutingError (No route matches [GET] "/css/font-awesome.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/css/owl.carousel.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/css/owl.theme.default.min.css"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:34:33 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff2"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.woff?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:34:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.7.0" for 127.0.0.1 at 2019-07-03 05:34:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/diploma" for 127.0.0.1 at 2019-07-03 05:35:12 +0200
+Processing by PagesController#diploma as HTML
+  Rendering pages/diploma.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.5ms)
+  Rendered pages/_diplomalist.html.erb (1.0ms)
+  Rendered pages/_bottomcoursedetails.html.erb (2.5ms)
+  Rendered pages/_footer.html.erb (25.9ms)
+  Rendered pages/diploma.html.erb within layouts/application (155.8ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+Completed 200 OK in 795ms (Views: 746.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graphics" for 127.0.0.1 at 2019-07-03 05:35:21 +0200
+Processing by PagesController#graphics as HTML
+  Rendering pages/graphics.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.7ms)
+  Rendered pages/_graphicslist.html.erb (1.4ms)
+  Rendered pages/_bottomcoursedetails.html.erb (5.7ms)
+  Rendered pages/_footer.html.erb (1.2ms)
+  Rendered pages/graphics.html.erb within layouts/application (261.4ms)
+  Rendered layouts/_message.html.erb (1.5ms)
+Completed 200 OK in 513ms (Views: 468.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscweb" for 127.0.0.1 at 2019-07-03 05:35:38 +0200
+Processing by PagesController#bscweb as HTML
+  Rendering pages/bscweb.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.5ms)
+  Rendered pages/_bscweblist.html.erb (0.6ms)
+  Rendered pages/_bottomcoursedetails.html.erb (2.2ms)
+  Rendered pages/_footer.html.erb (0.7ms)
+  Rendered pages/bscweb.html.erb within layouts/application (38.7ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+Completed 200 OK in 85ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscmobile" for 127.0.0.1 at 2019-07-03 05:35:45 +0200
+Processing by PagesController#bscmobile as HTML
+  Rendering pages/bscmobile.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.3ms)
+  Rendered pages/_bscmobilelist.html.erb (0.5ms)
+  Rendered pages/_bottomcoursedetails.html.erb (8.3ms)
+  Rendered pages/_footer.html.erb (5.6ms)
+  Rendered pages/bscmobile.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_message.html.erb (1.2ms)
+Completed 200 OK in 91ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscsoftware" for 127.0.0.1 at 2019-07-03 05:35:50 +0200
+Processing by PagesController#bscsoftware as HTML
+  Rendering pages/bscsoftware.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (3.0ms)
+  Rendered pages/_bscsoftwarelist.html.erb (0.7ms)
+  Rendered pages/_bottomcoursedetails.html.erb (41.9ms)
+  Rendered pages/_footer.html.erb (1.0ms)
+  Rendered pages/bscsoftware.html.erb within layouts/application (81.0ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+Completed 200 OK in 322ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscsoftware" for 127.0.0.1 at 2019-07-03 05:37:26 +0200
+Processing by PagesController#bscsoftware as HTML
+  Rendering pages/bscsoftware.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.7ms)
+  Rendered pages/_bscsoftwarelist.html.erb (0.4ms)
+  Rendered pages/_bottomcoursedetails.html.erb (2.5ms)
+  Rendered pages/_footer.html.erb (1.3ms)
+  Rendered pages/bscsoftware.html.erb within layouts/application (84.0ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+Completed 200 OK in 574ms (Views: 549.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bscgmm" for 127.0.0.1 at 2019-07-03 05:37:38 +0200
+Processing by PagesController#bscgmm as HTML
+  Rendering pages/bscgmm.html.erb within layouts/application
+  Rendered pages/_topcoursedetails.html.erb (0.3ms)
+  Rendered pages/_bscgmmlist.html.erb (0.5ms)
+  Rendered pages/_bottomcoursedetails.html.erb (1.7ms)
+  Rendered pages/_footer.html.erb (0.7ms)
+  Rendered pages/bscgmm.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
