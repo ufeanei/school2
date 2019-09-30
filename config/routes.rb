@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get "/bscce" => "pages#bscce"
   get "/bscgmm" => "pages#bscgmm"
   get "/bscccbd" => "pages#bscccbd"
+  get "/bscsecure" => "pages#bscsecure"
   resources :users , except: [:update, :destroy]
 
 

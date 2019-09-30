@@ -11,6 +11,10 @@ class PagesController < ApplicationController
     @page_title = "Android App Development Certificate"
   end
 
+  def bscsecure
+    @page_title = "Bsc in Cyber Security"
+  end
+
   def laravel
     @page_title = "Laravel Course Certificate"
   end
